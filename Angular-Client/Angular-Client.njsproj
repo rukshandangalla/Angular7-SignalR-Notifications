@@ -11,7 +11,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d8bc458b-5efe-4673-a5b4-4c52ffd50796</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,12 +30,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="e2e\protractor.conf.js" />
-    <Compile Include="server.js" />
     <Compile Include="src\karma.conf.js" />
     <Content Include=".editorconfig" />
     <Content Include=".gitignore" />
     <Content Include="angular.json" />
     <Content Include="e2e\tsconfig.e2e.json" />
+    <Content Include="libman.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="src\app\app.component.css" />
